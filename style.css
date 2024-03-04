@@ -1,0 +1,60 @@
+body{
+    background: rgb(201, 194, 194);
+  
+}
+.weather-app{
+
+    max-width: 600px;
+    background: white;
+    margin: 30px auto;
+    padding: 60px;
+    height: 40vh; 
+}
+.submit-form{
+    border-bottom: 1px solid rgb(235, 232, 232) ;
+    padding: 0 0 0 20px;
+}
+.city-input{
+    width: 400px;
+    height: 5vh;
+    text-align: center;
+    background: rgb(247, 242, 242);
+    border: none;
+}
+.submit-input{
+    width: 100px;
+    height: 5vh;
+    color: white;
+    background: blue;
+    margin: 10px;
+
+}
+.weather-input{
+    display: flex;
+    justify-content: space-between;
+}
+.weather-temperature{
+    padding: 5px;
+    margin-left: 30px;
+    font-size: 88px;
+    line-height: 88px;
+    font-weight: 700;
+    display: flex;
+    margin-top: 20px;
+    
+
+}
+footer{
+    border-top: 1px solid rgb(236, 226, 226) ;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+a{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.weather-inputstrong{
+    color:#f65282;
+}
